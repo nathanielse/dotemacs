@@ -8,9 +8,10 @@
 
 ;; List of external packages to install
 (setq nat-packages
-      '(js2-mode web-mode expand-region))
+      '(js2-mode expand-region web-mode))
 
 (nat-install-packages nat-packages)
 
-(nat-load-config-file "prog-mode")
 (nat-load-config-file "display")
+(nat-load-config-file "prog-mode")
+(nat-load-config-file "js2-mode")

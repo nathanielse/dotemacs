@@ -8,7 +8,7 @@
 
 ;; List of external packages to install
 (setq nat-packages
-      '(js2-mode expand-region web-mode))
+      '(js2-mode expand-region magit web-mode))
 
 (nat-install-packages nat-packages)
 

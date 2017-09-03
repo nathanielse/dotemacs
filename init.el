@@ -13,5 +13,6 @@
 (nat-install-packages nat-packages)
 
 (nat-load-config-file "display")
+(nat-load-config-file "behaviour")
 (nat-load-config-file "prog-mode")
 (nat-load-config-file "js2-mode")

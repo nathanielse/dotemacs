@@ -1,3 +1,6 @@
+;; Inspired by the configuration of Robert Jackson
+;; https://github.com/rwjblue/dotemacs
+
 ;; load utility functions
 (load-file "utils.el")
 

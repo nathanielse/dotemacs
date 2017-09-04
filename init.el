@@ -1,8 +1,12 @@
 ;; Inspired by the configuration of Robert Jackson
 ;; https://github.com/rwjblue/dotemacs
 
+(defun nat-load-config-file (filename)
+  "Load a configuration file in the directory 'config'"
+  (load-file (expand-file-name (concat filename ".el") ".emacs.d/config")))
+
 ;; load utility functions
-(load-file "utils.el")
+(nat-load-config-file "utils")
 
 ;; Add package repository Melpa
 (require 'package)

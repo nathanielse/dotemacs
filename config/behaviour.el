@@ -3,3 +3,6 @@
 
 ;; Enable 'auto-revert' mode
 (global-auto-revert-mode t)
+
+;; Enable "ido-mode"
+(ido-mode)

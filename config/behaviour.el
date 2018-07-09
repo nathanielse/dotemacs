@@ -6,3 +6,6 @@
 
 ;; Enable "ido-mode"
 (ido-mode)
+
+;; Use conf-mode when editing .tmux files
+(add-to-list 'auto-mode-alist '("\\.tmux\\'" . conf-mode))

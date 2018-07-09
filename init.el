@@ -14,10 +14,10 @@
 (package-initialize)
 
 ;; List of external packages to install
-(setq nat-packages
-      '(js2-mode expand-region magit web-mode))
+;; (setq nat-packages
+;;       '("js2-mode" "expand-region" magit "web-mode"))
 
-(nat-install-packages nat-packages)
+;;(nat-install-packages nat-packages)
 
 (nat-load-config-file "display")
 (nat-load-config-file "behaviour")
